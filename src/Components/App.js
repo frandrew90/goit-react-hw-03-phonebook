@@ -27,7 +27,7 @@ class App extends Component {
     const id = e.target.id;
     this.setState(prevState => ({
       contacts: prevState.contacts.filter(contact => contact.id !== id),
-      filter: '',
+      // filter: '',
     }));
   };
 
